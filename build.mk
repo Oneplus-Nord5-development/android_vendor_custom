@@ -98,6 +98,27 @@ PRODUCT_PACKAGES += \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
 
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
+    IconShapeCloudyOverlay \
+    IconShapeCylindricalOverlay \
+    IconShapeRiceBallsOverlay \
+    IconShapeStretchedOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeSquircleOverlay \
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    IconShapeVesselOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeScrollOverlay \
+    IconShapeIosOverlay \
+    IconShapeRohieMeowOverlay \
+    IconShapeLeafyOverlay
+
 # # Sepolicy
 # SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 #     vendor/custom/sepolicy/private
