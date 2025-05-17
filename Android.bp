@@ -13,6 +13,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ChromiteGithub",
+	apk: "prebuilts/arm64_ChromePublic.apk",
+	overrides: ["Jelly","Browser2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "FennecFdroid",
 	apk: "prebuilts/org.mozilla.fennec_fdroid_1380000.apk",
 	overrides: ["Jelly","Browser2"],
