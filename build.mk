@@ -1,5 +1,5 @@
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/prebuilts-foss
+    vendor/custom
 
 PRODUCT_PACKAGES += \
 	FossifyKeyboard \
