@@ -4,4 +4,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
 	FossifyKeyboard \
 	FossifyGallery \
-	PrivacyBrowserFdroid \
+
+ifeq ($(SHIP_FENNEC_FDROID),true)
+PRODUCT_PACKAGES += FennecFDroid
+else
+PRODUCT_PACKAGES += PrivacyBrowserFdroid
+endif
