@@ -1,2 +1,35 @@
 soong_namespace {
 }
+
+android_app_import {
+	name: "PrivacyBrowserFdroid",
+	apk: "prebuilts/com.stoutner.privacybrowser.standard_79.apk",
+	overrides: ["Jelly","Browser2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "FossifyGallery",
+	apk: "prebuilts/org.fossify.gallery_9.apk",
+	overrides: ["Gallery2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "FossifyKeyboard",
+	apk: "prebuilts/org.fossify.keyboard_3.apk",
+	overrides: ["LatinIME"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
