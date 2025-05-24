@@ -40,7 +40,7 @@ android_app_import {
 android_app_import {
 	name: "FossifyGallery",
 	apk: "prebuilts/org.fossify.gallery_9.apk",
-	overrides: ["Gallery2"],
+	overrides: ["Gallery2","Glimpse"],
 	presigned: true,
 	preprocessed: true,
 	dex_preopt: {
