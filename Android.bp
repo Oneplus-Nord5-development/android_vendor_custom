@@ -3,31 +3,7 @@ soong_namespace {
 
 android_app_import {
 	name: "PrivacyBrowserFdroid",
-	apk: "prebuilts/com.stoutner.privacybrowser.standard_79.apk",
-	overrides: ["Jelly","Browser2"],
-	presigned: true,
-	preprocessed: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "ChromiteGithub",
-	apk: "prebuilts/arm64_ChromePublic.apk",
-	overrides: ["Jelly","Browser2"],
-	presigned: true,
-	preprocessed: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "FennecFdroid",
-	apk: "prebuilts/org.mozilla.fennec_fdroid_1380000.apk",
+	apk: "prebuilts/apps/com.stoutner.privacybrowser.standard_79.apk",
 	overrides: ["Jelly","Browser2"],
 	presigned: true,
 	preprocessed: true,
@@ -39,7 +15,7 @@ android_app_import {
 
 android_app_import {
 	name: "FossifyGallery",
-	apk: "prebuilts/org.fossify.gallery_9.apk",
+	apk: "prebuilts/apps/org.fossify.gallery_9.apk",
 	overrides: ["Gallery2","Glimpse"],
 	presigned: true,
 	preprocessed: true,
@@ -51,7 +27,7 @@ android_app_import {
 
 android_app_import {
 	name: "FossifyKeyboard",
-	apk: "prebuilts/org.fossify.keyboard_3.apk",
+	apk: "prebuilts/apps/org.fossify.keyboard_3.apk",
 	overrides: ["LatinIME"],
 	presigned: true,
 	preprocessed: true,
@@ -59,4 +35,92 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-BigNum",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-BigNum.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Calligraphy",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Calligraphy.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Growth",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Growth.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Flex",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Flex.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Inflate",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Inflate.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Metro",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Metro.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-NumOverlap",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-NumOverlap.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SystemUIClocks-Weather",
+	owner: "google",
+	apk: "prebuilts/apps/SystemUIClocks-Weather.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
 }

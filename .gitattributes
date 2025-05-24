@@ -1,5 +1,0 @@
-prebuilts/org.fossify.gallery_9.apk filter=lfs diff=lfs merge=lfs -text
-prebuilts/org.fossify.keyboard_3.apk filter=lfs diff=lfs merge=lfs -text
-prebuilts/org.mozilla.fennec_fdroid_1380000.apk filter=lfs diff=lfs merge=lfs -text
-prebuilts/arm64_ChromePublic.apk filter=lfs diff=lfs merge=lfs -text
-prebuilts/com.stoutner.privacybrowser.standard_79.apk filter=lfs diff=lfs merge=lfs -text
