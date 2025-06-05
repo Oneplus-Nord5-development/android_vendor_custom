@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/custom/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
-    vendor/custom/prebuilts/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 # Overlays
 PRODUCT_PACKAGES += \
