@@ -88,3 +88,10 @@ PRODUCT_PACKAGES += \
     IconPackXperiaAndroidOverlay \
     IconPackXperiaSettingsOverlay \
     IconPackXperiaSystemUIOverlay
+
+# Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    vendor/custom/sepolicy/private
+
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/custom/sepolicy/vendor
