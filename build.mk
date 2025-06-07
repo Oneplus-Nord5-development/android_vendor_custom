@@ -8,6 +8,11 @@ PRODUCT_PACKAGES += \
 	FossifyGallery \
 	PrivacyBrowserFdroid \
 
+# Packages
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar \
+
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/custom/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
