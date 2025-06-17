@@ -28,7 +28,6 @@ android_app_import {
 android_app_import {
 	name: "FossifyKeyboard",
 	apk: "prebuilts/apps/org.fossify.keyboard_3.apk",
-	overrides: ["LatinIME"],
 	presigned: true,
 	preprocessed: true,
 	dex_preopt: {
