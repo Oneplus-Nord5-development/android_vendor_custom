@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
     LMOFreeform \
     LMOFreeformSidebar \
 
+ifeq ($(TARGET_WITH_GAMESPACE), true)
+PRODUCT_PACKAGES += GameSpace
+endif
+
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/custom/prebuilts/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
