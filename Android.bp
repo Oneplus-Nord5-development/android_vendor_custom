@@ -26,17 +26,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "FossifyKeyboard",
-	apk: "prebuilts/apps/org.fossify.keyboard_3.apk",
-	presigned: true,
-	preprocessed: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "SystemUIClocks-BigNum",
 	owner: "google",
 	apk: "prebuilts/apps/SystemUIClocks-BigNum.apk",

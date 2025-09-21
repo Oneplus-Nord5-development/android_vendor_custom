@@ -4,7 +4,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Apps
 PRODUCT_PACKAGES += \
-	FossifyKeyboard \
 	FossifyGallery \
 	PrivacyBrowserFdroid \
 
