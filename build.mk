@@ -8,9 +8,9 @@ PRODUCT_PACKAGES += \
 	PrivacyBrowserFdroid \
 
 # Packages
-# PRODUCT_PACKAGES += \
-#     LMOFreeform \
-#     LMOFreeformSidebar \
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar \
 
 # ifeq ($(TARGET_WITH_GAMESPACE), true)
 # PRODUCT_PACKAGES += GameSpace
@@ -128,9 +128,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 endif
 
-# # Sepolicy
-# SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-#     vendor/custom/sepolicy/private
+# Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    vendor/custom/sepolicy/private
 
-# BOARD_VENDOR_SEPOLICY_DIRS += \
-#     vendor/custom/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/custom/sepolicy/vendor
